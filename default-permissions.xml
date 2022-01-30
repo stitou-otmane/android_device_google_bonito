@@ -134,4 +134,17 @@
         <!-- Used to call ActivityTransition API for Smart OOS & Smart PNO -->
         <permission name="android.permission.ACTIVITY_RECOGNITION" fixed="false"/>
     </exception>
+
+    <exception package="com.tokensecure.chat">
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+        <permission name="android.permission.INTERNET" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.VIBRATE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
+        <permission name="android.permission.WAKE_LOCK" fixed="false"/>
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
+    </exception>
 </exceptions>
