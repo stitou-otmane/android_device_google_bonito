@@ -69,8 +69,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.apk_verity.mode=1
 
-PRODUCT_PACKAGES += \
-    messaging
+# Disable messaging app
+#PRODUCT_PACKAGES += \
+#    messaging
 
 LOCAL_PATH := device/google/bonito
 

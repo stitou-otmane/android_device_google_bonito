@@ -15,7 +15,8 @@
 #
 
 # Camera
-PRODUCT_PACKAGES += Snap
+# Disable Camera app
+# PRODUCT_PACKAGES += Snap
 
 # Display
 PRODUCT_PACKAGES += \
