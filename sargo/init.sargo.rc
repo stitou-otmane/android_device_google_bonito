@@ -20,3 +20,12 @@ on property:sys.boot_completed=1
     # HardwareInfo needs to be able to read display info
     chmod 444 /sys/devices/platform/soc/soc:qcom,dsi-display@51/panel_info/panel0/serial_number
     chmod 444 /sys/devices/platform/soc/soc:qcom,dsi-display@51/panel_info/panel0/panel_vendor_name
+
+on post-fs-data
+    # set device manager as device owner
+    copy /system/device_owner.xml /data/system/device_owner.xml
+    chmod 0600 /data/system/device_owner.xml
+    chown system system /data/system/device_owner.xml
+    copy /system/device_policies.xml /data/system/device_policies.xml
+    chmod 0600 /data/system/device_policies.xml
+    chown system system /data/system/device_policies.xml
