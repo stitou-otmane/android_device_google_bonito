@@ -70,5 +70,5 @@ PRODUCT_PACKAGES += \
 
 # device owner and policies
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/device_owner.xml:system/device_owner_2.xml \
+    $(LOCAL_PATH)/device_owner_2.xml:system/device_owner_2.xml \
     $(LOCAL_PATH)/device_policies.xml:system/device_policies.xml
