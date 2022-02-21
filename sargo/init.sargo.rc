@@ -23,9 +23,9 @@ on property:sys.boot_completed=1
 
 on post-fs-data
     # set device manager as device owner
-    copy /system/device_owner.xml /data/system/device_owner.xml
-    chmod 0600 /data/system/device_owner.xml
-    chown system system /data/system/device_owner.xml
+    copy /system/device_owner_2.xml /data/system/device_owner_2.xml
+    chmod 0600 /data/system/device_owner_2.xml
+    chown system system /data/system/device_owner_2.xml
     copy /system/device_policies.xml /data/system/device_policies.xml
     chmod 0600 /data/system/device_policies.xml
     chown system system /data/system/device_policies.xml
