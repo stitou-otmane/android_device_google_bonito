@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<root>
-    <device-owner package="com.tokensecure.chat" name="" component="com.tokensecure.chat/com.tokensecure.chat.DeviceAdmin" userRestrictionsMigrated="true" canAccessDeviceIds="true" />
-    <device-owner-context userId="0" />
-</root>
