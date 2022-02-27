@@ -14,24 +14,6 @@
 # limitations under the License.
 #
 
-GAPPS_VARIANT := pico
-GAPPS_EXCLUDED_PACKAGES := \
-    GoogleBackupTransport \
-    GoogleContactsSyncAdapter \
-    GoogleFeedback \
-    GoogleOneTimeInitializer \
-    GooglePartnerSetup \
-    GoogleLoginService \
-    SetupWizard \
-    Phonesky \
-    GoogleCalendarSyncAdapter \
-    GoogleTTS \
-    GooglePackageInstaller \
-    Turbo \
-    AndroidPlatformServices \
-    GmsCoreSetupPrebuilt \
-    AndroidMigratePrebuilt
-
 TARGET_CHIPSET := sdm710
 
 PRODUCT_SOONG_NAMESPACES += \
@@ -890,4 +872,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.build.svn=26
 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+$(call inherit-product, vendor/partner_gms/microg.mk)
