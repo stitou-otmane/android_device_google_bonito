@@ -871,5 +871,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Increment the SVN for any official public releases
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.build.svn=26
-
-$(call inherit-product, vendor/partner_gms/microg.mk)
