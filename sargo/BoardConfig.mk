@@ -23,3 +23,6 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 20
 
 include device/google/bonito/BoardConfig-common.mk
 -include vendor/google_devices/bonito/proprietary/BoardConfigVendor.mk
+
+BOARD_AVB_ALGORITHM := SHA256_RSA2048
+BOARD_AVB_KEY_PATH := /home/admin/.android-certs/releasekey.key
