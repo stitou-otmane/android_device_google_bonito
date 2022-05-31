@@ -688,4 +688,7 @@
     <dimen name="rounded_corner_radius_top">40px</dimen>
     <dimen name="rounded_corner_radius_bottom">41px</dimen>
 
+    <!-- Flag indicating whether system user specific blacklist/whitelist is supported -->
+    <bool name="config_systemUserPackagesBlacklistSupported">true</bool>
+
 </resources>
