@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<config>
-    <!-- This package will be uninstalled for the system user -->
-    <system-user-blacklisted-app package="com.google.android.euicc" />
-</config>
